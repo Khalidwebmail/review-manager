@@ -1,0 +1,19 @@
+{
+    "name": "khalid/review-manager",
+    "description": "User can review respect of criteria for woocmmerce product.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+      {
+        "name": "Khalidwebmail",
+        "email": "csewebmail@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Review\\Manager\\": "includes/"
+      }
+    }
+  }
